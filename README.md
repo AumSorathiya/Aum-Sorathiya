@@ -6,7 +6,7 @@
 
 **A modern, high-performance personal portfolio showcasing 17 projects with cutting-edge web technologies**
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-8b5cf6?style=for-the-badge&logo=vercel)](https://aumsorathiya.github.io/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-8b5cf6?style=for-the-badge&logo=vercel)](https://aumsorathiya.github.io/Aum-Sorathiya)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/Avcks)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B6?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aum-sorathiya/)
 
@@ -89,34 +89,7 @@ A premium, fully responsive portfolio website featuring a futuristic dark theme 
 
 ## 🚀 Quick Start
 
-### Option 1: View Live Demo
-
-Visit the live portfolio: **[aumsorathiya.github.io](https://aumsorathiya.github.io/)**
-
-### Option 2: Run Locally
-
-```bash
-# Clone the repository
-git clone https://github.com/Avcks/Aum-Sorathiya-main.git
-
-# Navigate to project directory
-cd Aum-Sorathiya-main
-
-# Open in browser
-# Simply double-click index.html or use a local server
-```
-
-**Using Live Server (Recommended):**
-
-```bash
-# If you have VS Code with Live Server extension
-# Right-click index.html → "Open with Live Server"
-
-# Or use Python's built-in server
-python -m http.server 8000
-# Then visit http://localhost:8000
-```
-
+Visit the live portfolio: **[aumsorathiya.github.io](https://aumsorathiya.github.io/Aum-Sorathiya)**
 ---
 
 ## 📂 Project Structure
@@ -137,69 +110,6 @@ Aum-Sorathiya-main/
         ├── myid.jpg
         └── ... (16 total project images)
 ```
-
----
-
-## 🎨 Customization Guide
-
-### Changing Colors
-
-Modify CSS variables in `style.css`:
-
-```css
-:root {
-  /* Primary Colors */
-  --primary-color: #8b5cf6; /* Neon Violet */
-  --secondary-color: #06b6d4; /* Cyan */
-
-  /* Background Colors */
-  --bg-color: #0a0a0a; /* Deep Black */
-  --card-bg: rgba(17, 17, 17, 0.8); /* Card Background */
-
-  /* Text Colors */
-  --text-primary: #ffffff; /* White */
-  --text-secondary: #a0a0a0; /* Gray */
-}
-```
-
-### Updating Content
-
-1. **Projects**: Edit project cards in `index.html` (lines 220-830)
-2. **About Section**: Update bio in `index.html` (lines 90-120)
-3. **Skills**: Modify skill items in `index.html` (lines 140-200)
-4. **Contact Info**: Update email/phone in `index.html` (lines 850-880)
-
-### Adding New Projects
-
-```html
-<div class="project-card" data-reveal>
-  <div class="project-img">
-    <div class="placeholder-img">
-      <img
-        src="assets/images/your-project.jpg"
-        alt="Descriptive alt text"
-        loading="lazy"
-      />
-    </div>
-  </div>
-  <div class="project-content">
-    <h3>Project Name</h3>
-    <p>Project description...</p>
-    <div class="tech-stack">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JS</span>
-    </div>
-    <div class="project-links">
-      <a href="#" class="btn-sm"> <i class="fab fa-github"></i> Code </a>
-      <a href="#" class="btn-sm">
-        <i class="fas fa-external-link-alt"></i> Demo
-      </a>
-    </div>
-  </div>
-</div>
-```
-
 ---
 
 ## 📊 Performance Metrics
